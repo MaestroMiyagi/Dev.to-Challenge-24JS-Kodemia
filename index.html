@@ -20,38 +20,66 @@
     <aside></aside>
     <main>
         <!-- Inicio Tab-->
-        <ul class="nav nav-tabs bg-var" id="myTab" role="tablist">
+        <ul class="nav bg-secondary-subtle">
             <li class="nav-item" role="presentation">
-                <button class="nav-link text-black " id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane"
-                    type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Relevent</button>
+                <a class="nav-link  text-black " id="pills-relevant-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-relevant" type="button" role="tab" aria-controls="pills-relevant"
+                    aria-selected="true">Relevant</a>
+            </li>
+            <li class="nav-item " role="presentation">
+                <a class="nav-link text-black" id="pills-profile-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                    aria-selected="false">Profile</a>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link text-black " id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane"
-                    type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Last</button>
-            </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link text-black " id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane"
-                    type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Top</button>
+                <a class="nav-link text-black" id="pills-contact-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                    aria-selected="false">Contact</a>
             </li>
 
         </ul>
-        <div class="tab-content" id="myTabContent">
-            <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-relevant-tab"
                 tabindex="0">
-            </div>
-        </div>
-        <!--Inicio Cards-->
-        <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
 
 
+
+            </div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
+                tabindex="0">hola</div>
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"
+                tabindex="0">...</div>
+        </div>
+        <section class="col-sm-12 col-lg-12 cards__general">
+            <!--Inicia Card-->
+            <section class="container-flui container--img">
+                <img src="./images/imagenPrincipalCard2.webp" class="card-img-top" alt="...">
+                <div class="container container--imgUser">
+                    <div class="row">
+                        <div class="col-12 col-lg-12 d-flex">
+                            <img src="./images/imagenusuarioCard.jfif" class="rounded-circle pt-2 ">
+                            <p class="container__imgtext--name p-3 fw-ligth"> Ben Halper for The DEV TEAM <br>
+                                Posted on 31 ene
+                            </p>
+                        </div>
+                    </div>
+                    <a>
+                        <div class="container container-tittle">
+                            <h1 class=" fw-bold pt-3">
+                                <a class="container container--tittle text-black  " href="./pages/post.html"> Welcome
+                                    @devintelbyte, the
+                                    1 millionth
+                                    registered
+                                    DEV!</a>
+                            </h1>
+                    </a>
+                    <div>
+                        <a class="ms-3">#meta</a>
+                        <a class="ms-3">#watercolor</a>
+                    </div>
+                </div>
+            </section>
+        </section>
     </main>
     <aside></aside>
     <footer></footer>
