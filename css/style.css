@@ -17,6 +17,7 @@ li {
 #footer-list li {
   box-sizing: border-box;
   display: list-item;
+  list-style:none;
 }
 
 .dot {
