@@ -1,0 +1,57 @@
+.container--tittle{
+text-decoration: none;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+.imgUser{
+    width: 50px;
+    height: 50px;
+    margin-top: 1.2rem;
+    border-radius: 100%;
+}
+.paragraphEmojis{
+    font-size: 12px;
+    margin: 0px;
+    padding: 2px;
+    padding-right: 60px;
+}
+
+.paragrapghNone{
+    font-size: 15px;
+    margin: 0px;
+    display: none;
+   
+ 
+}
+
+@media (min-width: 990px) { 
+    .paragraphEmojis{
+    font-size: 15px;
+    padding: 0px;
+}
+    .paragrapghNone{
+        font-size: 15px;
+        display: block;
+        margin-right: 17rem;
+    }
+    .emoji{
+        margin-left:2rem;
+    }
+  
+
+    .container--tittle {
+        margin-left: 3.5rem;
+        font-size: 45px;
+        
+    }
+    .anchores{
+        font-size: 18px;
+        padding-left: 2rem;
+    }
+}
+
+
