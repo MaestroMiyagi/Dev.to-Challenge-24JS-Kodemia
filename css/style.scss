@@ -1,0 +1,19 @@
+footer{
+    background-color:rgb(229, 229, 229) ;
+    .card__footer {
+        padding: 1.25rem;
+    }
+}
+
+.dot{
+    height: 0.25rem;
+    width: 0.25rem;
+    background-color: #575757;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left:0.5rem ;
+
+}
+li{
+    list-style: none;
+}
