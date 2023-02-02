@@ -57,6 +57,52 @@ a {
   display: none;
 }
 
+.user-icon {
+  border-radius: 50%;
+  height: 24px;
+  width: 24px;
+}
+
+/*PostPage*/
+.container--comentarios {
+  height: 150px;
+}
+
+.imgUserPost {
+  width: 50px;
+  height: 50px;
+  margin-top: 1.2rem;
+}
+
+.comentariosImg {
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  margin: 1rem;
+}
+
+.cuadrado {
+  height: 100px;
+  width: 300px;
+  border: solid;
+  margin-top: 1rem;
+  border-radius: 10px;
+}
+
+.paragraphContainer {
+  display: flex;
+  justify-content: start;
+  margin-top: 1rem;
+}
+
+.imgUserPost {
+  border-radius: 100%;
+}
+
+.container--main {
+  display: none;
+}
+
 @media (min-width: 990px) {
   .paragraphEmojis {
     font-size: 15px;
@@ -77,5 +123,31 @@ a {
   .anchores {
     font-size: 18px;
     padding-left: 2rem;
+  }
+  /*PostPage*/
+  .cuadrado {
+    height: 100px;
+    width: 850px;
+    border: solid;
+    margin-top: 1rem;
+    border-radius: 10px;
+  }
+  .buttons {
+    display: none;
+  }
+  .paragraphContainer {
+    display: flex;
+    justify-content: center;
+  }
+  .container--main {
+    display: block;
+  }
+  .search-icon {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .asideR {
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */
