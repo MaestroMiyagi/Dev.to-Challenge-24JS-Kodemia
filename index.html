@@ -14,132 +14,403 @@
 </head>
 
 <body>
-   <!-- Inicio Aside I -->
-   <aside>
-    <div class="d-none d-sm-none d-md-block col-3">
-        <div class="aside__left ">
-            <ul class="p-0">
-                <li class="nav-link ">
-                    <a class="nav-link" href="#"><img class="img" src="./images-aside/house.svg"
-                            alt="house">Home</a>
-                </li>
-                <li class="nav-link ">
-                    <a class="nav-link" href="#"><img class="img" src="./images-aside/poema.svg" alt="poema">
-                        Listings</a>
-                </li>
-                <li class="nav-link ">
-                    <a class="nav-link" href="#"><img class="img" src="./images-aside/microfono.svg"
-                            alt="microfono">
-                        Podcasts</a>
-                </li>
-                <li class="nav-link ">
-                    <a class="nav-link" href="#"><img class="img" src="./images-aside/videocamara.svg"
-                            alt="videocamara">
-                        Videos</a>
-                </li>
-                <li class="nav-link ">
-                    <a class="nav-link" href="#"><img class="img" src="./images-aside/etiqueta de carton.svg"
-                            alt="etiqueta">
-                        Tags</a>
-                </li>
-                <li class="nav-link ">
-                    <a class="nav-link" href="#"><img class="img" src="./images-aside/foco.svg" alt="foco"> FAQ</a>
-                </li>
-                <li class="nav-link">
-                    <a class="nav-link" href="#"><img class="img" src="./images-aside/shoping.svg" alt="shoping">
-                        Forem Shop</a>
-                </li>
-                <li class="nav-link ">
-                    <a class="nav-link" href="#"><img class="img" src="./images-aside/corazon.svg" alt="corazon">
-                        Sponsors</a>
-                </li>
-                <li class="nav-link ">
-                    <a class="nav-link" href="#"><img class="img" src="./images-aside/logo dev arcoiris.svg"
-                            alt="Dev"> About</a>
-                </li>
-                <li class="nav-link ">
-                    <a class="nav-link" href="#"><img class="img" src="./images-aside/corneta.svg" alt="corneta">
-                        Contact</a>
-                </li>
-                <li class="nav-link ">
-                    <a class="nav-link" href="#"><img class="img" src="./images-aside/carpeta.svg" alt="carpeta">
-                        Guides</a>
-                </li>
-                <li class="nav-link">
-                    <a class="nav-link" href="#"><img class="img" src="./images-aside/dudoso.svg"
-                            alt="emoji-dudoso"> Software comparisons</a>
-                </li>
-            </ul>
-            <!-- secction-other -->
-            <div class="other_section">
-                <p class="fw-bold m-0">Other</p>
-                <ul class="p-0">
-                    <li class="nav-link py-2">
-                        <a class="nav-link" href="#"><img src="./images-aside/pulgar arriba.svg" alt="pulgar"> Code
-                            of Conduct</a>
-                    </li>
-                    <li class="nav-link py-2">
-                        <a class="nav-link" href="#"><img src="./images-aside/cara con lentes.svg" alt="cara">
-                            Privacy Policy</a>
-                    </li>
-                    <li class="nav-link py-2">
-                        <a class="nav-link" href="#"><img src="./images-aside/ojos a la izquierda.svg" alt="ojos">
-                            Terms of use</a>
-                    </li>
-                </ul>
+    <nav class="navbar sticky-top navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html"><img src="./assets/Dev.png" alt="Dev.to logo" width="50"
+                    height="40" /></a>
+            <a class="navbar-brand search-icon" href="#"><img id="userLogo" src="./assets/search.svg"
+                    align="right" /></a>
+            <div class="container collapse navbar-collapse">
+                <input name="usr" type="text" class="form-control" placeholder="Search" />
+                <img src="./assets/search.svg" align="right" />
             </div>
-            <!-- Seccion-social-media -->
-            <div class=" d-flex justify-content-start section-social-media">
+            <a class="navbar-brand mb-1" href="#"><img src="./assets/bell.svg" alt="" /></a>
+            <a class="navbar-brand mb-1 " href="#"><img class="user-icon" src="./images/icon-user.webp" alt="" /></a>
+        </div>
+    </nav>
+    <main>
+        <!-- Inicio Tab-->
+        <ul class="nav nav-tabs" id="myTab" role="tablist"">
+            <li class=" nav-item" role="presentation">
+            <a class="nav-link  text-black " id="pills-relevant-tab" data-bs-toggle="pill"
+                data-bs-target="#pills-relevant" type="button" role="tab" aria-controls="pills-relevant"
+                aria-selected="true">Relevant</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link text-black" id="pills-profile-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                    aria-selected="false">Lastet</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link text-black" id="pills-contact-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                    aria-selected="false">Top</a>
+            </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-relevantole=" tabpanel"
+                aria-labelledby="pills-relevant-tab" tabindex="0">
+                <section class="col-sm-12 col-lg-12 cards__general">
+                    <div class="card">
+                        <img src="./images/imagenPrincipalCard2.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="container container--imgUser p-0">
+                                <div class="row">
+                                    <div class="col-12 col-lg-12 d-flex ">
+                                        <img src="./images/imagenusuarioCard.jfif" class=" imgUser ">
+                                        <p class="container__imgtext--name p-3 fw-ligth"> Ben Halper for The DEV TEAM
 
-                <a class="mx-1" href="#">
-                    <span> <img src="./images-aside/twitter.svg" alt="twitter"></span>
-                </a>
-                <a class="mx-1" href="#">
-                    <img src="./images-aside/logo de faacebook black.svg" alt="faacebook">
-                </a>
-
-                                        Posted on 31 ene
-                                    </p>
+                                            Posted on 31 ene
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="container container-tittle p-0 ms-2">
+                                    <h5 class=" fw-bold ">
+                                        <a class="container container--tittle text-black p-0 "
+                                            href="./pages/postCard.html">
+                                            Welcom @devintelbyte, the,
+                                            1 millionth
+                                            registered
+                                            DEV!</a>
+                                    </h5>
+                                    <div class="ms-2 pt-2 fs-5">
+                                        <a class=" anchores ms-3">#meta</a>
+                                        <a class=" anchores ms-3">#watercolor</a>
+                                    </div>
+                                </div>
+                                <div class="d-flex  justify-content-around pt-4 ms-2">
+                                    <img src="./images/heart.svg" class="emoji">
+                                    <p class="paragraphEmojis">6</p>
+                                    <p class="paragrapghNone">reactions</p>
+                                    <img src="./images/chat-right.svg" class="svgChat">
+                                    <p class="paragraphEmojis">6 </p>
+                                    <p class="paragrapghNone">Comment</p>
+                                    <p class="paragraphEmojis">4 min read</p>
+                                    <img src="./images/save.svg " class="">
                                 </div>
                             </div>
-                            <div class="container container-tittle p-0 ms-2">
-                                <h5 class=" fw-bold ">
-                                    <a class="container container--tittle text-black p-0 " href="./pages/post.html">
-                                        Welcom @devintelbyte, the,
-                                        1 millionth
-                                        registered
-                                        DEV!</a>
-                                </h5>
-                                <div class="ms-2 pt-2 fs-5">
-                                    <a class=" anchores ms-3">#meta</a>
-                                    <a class=" anchores ms-3">#watercolor</a>
+
+                        </div>
+                </section>
+                <section class="cardTwo pt-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="container container--imgUser p-0">
+                                <div class="row">
+                                    <div class="col-12 col-lg-12 d-flex">
+                                        <img src="./images/thor.webp" class=" imgUser ">
+                                        <p class="container__imgtext--name p-3 fw-ligth"> HeyBaldur
+
+                                            Feb 1(7hours ago)
+                                        </p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="d-flex  justify-content-around pt-4 ms-2">
-                                <img src="./images/heart.svg" class="emoji">
-                                <p class="paragraphEmojis">6</p>
-                                <p class="paragrapghNone">reactions</p>
-                                <img src="./images/chat-right.svg" class="svgChat">
-                                <p class="paragraphEmojis">6 </p>
-                                <p class="paragrapghNone">Comment</p>
-                                <p class="paragraphEmojis">4 min read</p>
-                                <img src="./images/save.svg " class="">
+                                <div class="container container-tittle p-0 ms-2">
+                                    <h5 class=" fw-bold">
+                                        <p class="container container--tittle text-black  p-0" href="./pages/post.html">
+                                            How to become a software developer (Seriously)!</p>
+                                    </h5>
+                                    <div class="pt-2 fs-5">
+                                        <div class="ms-2 pt-2">
+                                            <a class="anchores ms-3 ">#webdev</a>
+                                            <a class="anchores ms-3">#tutorial</a>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex  justify-content-around pt-4 ms-4 ">
+                                        <img src="./images/heart.svg">
+                                        <p class="paragraphEmojis" class="emoji">6</p>
+                                        <p class="paragrapghNone">reactions</p>
+                                        <img src="./images/chat-right.svg" class="svgChat">
+                                        <p class="paragraphEmojis">2 </p>
+                                        <p class="paragrapghNone">Comment</p>
+                                        <p class="paragraphEmojis">4 min read</p>
+                                        <img src="./images/save.svg ">
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
 
-                </a>
-                <a class="mx-1" href="#">
-                    <img src="./images-aside/logo instagram black.svg" alt="instagram">
-                </a>
-                <a class="mx-1" href="#">
-                    <img src="./images-aside/twitch icon.svg" alt="twitch">
-                </a>
+                </section>
             </div>
-            <!-- Termino de aside izquierdo -->
-</aside>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
+                tabindex="0">
+                <section class="col-sm-12 col-lg-12 cards__general pt-3">
+                    <div class="card">
+                        <img src="./images/card3.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="container container--imgUser p-0">
+                                <div class="row">
+                                    <div class="col-12 col-lg-12 d-flex ">
+                                        <img src="./images/imagenusuarioCard.jfif" class=" imgUser ">
+                                        <p class="container__imgtext--name p-3 fw-ligth"> Ben Halper for The DEV TEAM
+
+                                            Posted on 31 ene
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="container container-tittle p-0 ms-2">
+                                    <h5 class=" fw-bold ">
+                                        <a class="container container--tittle text-black p-0 " href="./pages/post.html">
+                                            Welcom @devintelbyte, the,
+                                            1 millionth
+                                            registered
+                                            DEV!</a>
+                                    </h5>
+                                    <div class="ms-2 pt-2 fs-5">
+                                        <a class=" anchores ms-3">#meta</a>
+                                        <a class=" anchores ms-3">#watercolor</a>
+                                    </div>
+                                </div>
+                                <div class="d-flex  justify-content-around pt-4 ms-2">
+                                    <img src="./images/heart.svg" class="emoji">
+                                    <p class="paragraphEmojis">6</p>
+                                    <p class="paragrapghNone">reactions</p>
+                                    <img src="./images/chat-right.svg" class="svgChat">
+                                    <p class="paragraphEmojis">6 </p>
+                                    <p class="paragrapghNone">Comment</p>
+                                    <p class="paragraphEmojis">4 min read</p>
+                                    <img src="./images/save.svg " class="">
+                                </div>
+                            </div>
+
+                        </div>
+                </section>
+            </div>
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"
+                tabindex="0">
+                <section class="col-sm-12 col-lg-12 cards__general pt-3">
+                    <div class="card">
+                        <img src="./images/card2.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="container container--imgUser p-0">
+                                <div class="row">
+                                    <div class="col-12 col-lg-12 d-flex ">
+                                        <img src="./images/imagenusuarioCard.jfif" class=" imgUser ">
+                                        <p class="container__imgtext--name p-3 fw-ligth"> Ben Halper for The DEV TEAM
+
+                                            Posted on 31 ene
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="container container-tittle p-0 ms-2">
+                                    <h5 class=" fw-bold ">
+                                        <a class="container container--tittle text-black p-0 " href="./pages/post.html">
+                                            Welcom @devintelbyte, the,
+                                            1 millionth
+                                            registered
+                                            DEV!</a>
+                                    </h5>
+                                    <div class="ms-2 pt-2 fs-5">
+                                        <a class=" anchores ms-3">#meta</a>
+                                        <a class=" anchores ms-3">#watercolor</a>
+                                    </div>
+                                </div>
+                                <div class="d-flex  justify-content-around pt-4 ms-2">
+                                    <img src="./images/heart.svg" class="emoji">
+                                    <p class="paragraphEmojis">6</p>
+                                    <p class="paragrapghNone">reactions</p>
+                                    <img src="./images/chat-right.svg" class="svgChat">
+                                    <p class="paragraphEmojis">6 </p>
+                                    <p class="paragrapghNone">Comment</p>
+                                    <p class="paragraphEmojis">4 min read</p>
+                                    <img src="./images/save.svg " class="">
+                                </div>
+                            </div>
+
+                        </div>
+                </section>
+            </div>
+        </div>
+        <!--Termino de Tabs-->
+    </main>
+    <!--Aside derecho-->
+    <aside class="col-3 asideR">
+        <!-- Primera sección  -->
+        <div class="card">
+            <img src="./images/linode.webp" alt="#">
+            <span class="card p-2">
+                <a name="" id="" class="btn href=" #" role="button">
+                    <h4>Linode + DEV Hackathon (7)</h4>
+                </a>
+                <span class="m-1">
+                    <a href="#">Linode + DEV Hackathon</a>
+                </span>
+                <span class="m-1">
+                    <a href="#">Linode + DEV Hackathon"</a>
+                </span>
+                <span class="m-1">
+                    <a href="#">Announcing the Linode + DEV Hackathon!</a>
+                </span>
+                <span class="m-1">
+                    <a href="#">Product Focused Principal Front End Engineer</a>
+                </span>
+                <span class="m-1">
+                    <a href="#">Community Discussion Thread — Linode + DEV Hackathon</a>
+                </span>
+                <span class="m-1">
+                    <a href="#">Unique Project Ideas for the Linode + DEV Hackathon</a>
+                </span>
+                <a name="" class="btn btn-primary m-1" href="#" role="button">Share your projects</a>
+                <a name="" class="btn btn-secondary m-1" href="#" role="button">See all posts</a>
+            </span>
+        </div>
+        <!-- Segunda sección -->
+        <section class="card p-2 mt-2">
+            <div class="d-flex">
+                <h3 class="me-5">Listings</h3>
+                <a href="#" class="ms-5 mt-2 text-primary">See all</a>
+            </div>
+            <span class="m-1 d-block">
+                <a href="#">Cyber Security Competition "VU Cyberthon 2023"</a><br>
+                <small>events</small>
+            </span>
+            <span class="m-1 d-block">
+                <a href="#">Need elite engineering talent for hire?</a><br>
+                <small>forhire</small>
+            </span>
+            <span class="m-1 d-block">
+                <a href="#">Product Focused Principal Front End Engineer</a><br>
+                <small>forhire</small>
+            </span>
+            <span class="m-1 d-block">
+                <a href="#">Frontend developer open for hiring</a><br>
+                <small>collab</small>
+            </span>
+            <hr class="opacity-25">
+            <button type="button" class="btn">Create listing</button>
+            </span>
+        </section>
+        <!-- Tercera sección  -->
+        <section class="card p-2 mt-1">
+            <header>
+                <h3><a href="#">#help</a></h3>
+            </header>
+            <div>
+                <span class="m-1 d-block">
+                    <a href="#">Help needed for reviewing my first Vue app</a><br>
+                    <small class="bg-warning">New</small>
+                </span>
+                </span>
+            </div>
+        </section>
+        <!-- Cuarta sección -->
+        <section class="card p-2 mt-1">
+            <header>
+                <h3><a href="#">#discuss</a></h3>
+            </header>
+            <div>
+                <span class="m-1 d-block">
+                    <a href="#">The Dark Side of Directing Your Customers to Zapier for Integrations</a><br>
+                    <small class="bg-warning">New</small>
+                </span>
+                <span class="m-1 d-block">
+                    <a href="#">5 years of *professional* coding (OR how I earn money while having fun)</a><br>
+                    <small class="bg-warning">New</small>
+                </span>
+                <span class="m-1 d-block">
+                    <a href="#">CHALLENGE: Describe AI in five words or less.</a><br>
+                    <small>22 comments</small>
+                </span>
+                <span class="m-1 d-block">
+                    <a href="#">Meme Monday 👁</a><br>
+                    <small>88 comments</small>
+                </span>
+                <span class="m-1 d-block">
+                    <a href="#">Music Monday — What are you listening to? (60's Edition)</a><br>
+                    <small>19 comments</small>
+                </span>
+            </div>
+        </section>
+        <!-- Cuarta sección -->
+        <section class="card p-2 mt-1">
+            <header>
+                <h3><a href="#">#explainlikeimfive</a></h3>
+            </header>
+            <div>
+                <span class="m-1 d-block">
+                    <a href="#">What is tutorial hell for you?</a><br>
+                    <small>19 comments</small>
+                </span>
+            </div>
+        </section>
+        <!-- Quinta sección -->
+        <section class="card p-2 mt-1">
+            <header>
+                <h3><a href="#">#challenge</a></h3>
+            </header>
+            <div>
+                <span class="m-1 d-block">
+                    <a href="#">Automatic Speech Recognition with AWS Lambda and Leopard</a><br>
+                    <small class="bg-warning">New</small>
+                </span>
+                <span class="m-1 d-block">
+                    <a href="#">AWS Certified: Professional Challenge</a><br>
+                    <small class="bg-warning">New</small>
+                </span>
+                <span class="m-1 d-block">
+                    <a href="#">The Traverse Algorithm</a><br>
+                    <small class="bg-warning">New</small>
+                </span>
+                <span class="m-1 d-block">
+                    <a href="#">Hotword Detection for MCUs</a><br>
+                    <small class="bg-warning">New</small>
+                </span>
+                <span class="m-1 d-block">
+                    <a href="#">10 Challenges that make Adopting DevOps Difficult</a><br>
+                    <small class="bg-warning">New</small>
+                </span>
+            </div>
+        </section>
+        <!-- Sexta sección -->
+        <section class="card p-2 mt-1">
+            <header>
+                <h3><a href="#">#meta</a></h3>
+            </header>
+            <div>
+                <span class="m-1 d-block">
+                    <a href="#">Welcome @devintelbyte, the 1 millionth registered DEV!</a><br>
+                    <small>33 comments</small>
+                </span>
+                <span class="m-1 d-block">
+                    <a href="#">How do you motivate yourself to write when so few are reading it?</a><br>
+                    <small>8 comments</small>
+                </span>
+            </div>
+        </section>
+        <!-- Septima sección -->
+        <section class="card p-2 mt-1">
+            <header>
+                <h3><a href="#">#watercooler</a></h3>
+            </header>
+            <div>
+                <span class="m-1 d-block">
+                    <a href="#">Welcome @devintelbyte, the 1 millionth registered DEV!</a><br>
+                    <small>33 comments</small>
+                </span>
+                <span class="m-1 d-block">
+                    <a href="#">CHALLENGE: Describe AI in five words or less.</a><br>
+                    <small>8 comments</small>
+                </span>
+                <span class="m-1 d-block">
+                    <a href="#">Meme Monday 👁</a><br>
+                    <small>88 comments</small>
+                </span>
+                <span class="m-1 d-block">
+                    <a href="#">Music Monday — What are you listening to? (60's Edition)</a><br>
+                    <small>19 comments</small>
+                </span>
+                <span class="m-1 d-block">
+                    <a href="#">How do you motivate yourself to write when so few are reading it?</a><br>
+                    <small>8 comments</small>
+                </span>
+            </div>
+        </section>
+    </aside>
+    <footer></footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
 </body>
-   
+
 </html>
