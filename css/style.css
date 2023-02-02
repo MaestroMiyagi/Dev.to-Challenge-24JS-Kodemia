@@ -63,6 +63,10 @@ a {
   border-radius: 100%;
 }
 
+.container--main {
+  display: none;
+}
+
 @media (min-width: 990px) {
   .paragraphEmojis {
     font-size: 15px;
@@ -98,5 +102,8 @@ a {
   .paragraphContainer {
     display: flex;
     justify-content: center;
+  }
+  .container--main {
+    display: block;
   }
 }/*# sourceMappingURL=style.css.map */
