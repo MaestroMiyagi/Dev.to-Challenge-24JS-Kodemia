@@ -1,8 +1,22 @@
 footer {
+  font-size: 0.875rem;
+  padding: 1.25rem;
   background-color: rgb(229, 229, 229);
 }
-footer .card__footer {
-  padding: 1.25rem;
+footer a {
+  text-decoration: none;
+}
+footer a.bord-hover:hover {
+  border-bottom: 1px solid rgb(47, 58, 178);
+}
+
+li {
+  list-style: none;
+}
+
+#footer-list li {
+  box-sizing: border-box;
+  display: list-item;
 }
 
 .dot {
@@ -12,8 +26,4 @@ footer .card__footer {
   border-radius: 50%;
   display: inline-block;
   margin-left: 0.5rem;
-}
-
-li {
-  list-style: none;
 }/*# sourceMappingURL=style.css.map */

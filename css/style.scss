@@ -1,10 +1,29 @@
 footer{
-    background-color:rgb(229, 229, 229) ;
-    .card__footer {
-        padding: 1.25rem;
+    font-size: 0.875rem;
+    padding: 1.25rem;
+    a{
+        text-decoration: none;
+        &.bord-hover{
+            &:hover{
+                border-bottom: 1px solid rgb(47, 58, 178);
+            }
+        }
     }
+    background-color:rgb(229, 229, 229) ;
+
 }
 
+li{
+    list-style: none;
+}
+
+#footer-list{
+    li{
+        box-sizing: border-box;
+        display: list-item;
+        // align-items: center;
+    }
+}
 .dot{
     height: 0.25rem;
     width: 0.25rem;
@@ -13,7 +32,4 @@ footer{
     display: inline-block;
     margin-left:0.5rem ;
 
-}
-li{
-    list-style: none;
 }
