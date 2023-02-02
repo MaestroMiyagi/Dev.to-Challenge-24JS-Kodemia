@@ -29,6 +29,12 @@ a{
  
 }
 
+.user-icon{
+    border-radius: 50%;
+    height: 24px;
+    width: 24px;
+}
+
 /*PostPage*/
 
 .container--comentarios{
@@ -108,9 +114,15 @@ height: 150px;
     .container--main{
         display: block;
     }
-  
+    .search-icon{
+        display: none;
+    }
    
   }
 
-
+@media screen and (max-width:768px) {
+    .asideR{
+        display: none;
+    }
+}
 
