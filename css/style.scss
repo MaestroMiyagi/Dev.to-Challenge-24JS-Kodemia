@@ -1,4 +1,6 @@
 @import "./_Aside-I.scss";
+@import "./_footer";
+
 .container--tittle{
 text-decoration: none;
 
@@ -80,7 +82,6 @@ height: 150px;
     .paragrapghNone{
         font-size: 15px;
         display: block;
-        margin-right: 17rem;
     }
     .emoji{
         margin-left:2rem;

@@ -28,6 +28,35 @@
   background-color: rgb(37, 34, 97);
 }
 
+footer {
+  font-size: 0.875rem;
+  padding: 1.25rem;
+}
+footer div {
+  background-color: rgb(229, 229, 229);
+}
+footer div ul #footer-list li {
+  box-sizing: border-box;
+  display: list-item;
+}
+footer div ul li {
+  list-style: none;
+}
+footer div ul li a {
+  text-decoration: none;
+}
+footer div ul li a.bord-hover:hover {
+  border-bottom: 1px solid rgb(47, 58, 178);
+}
+footer div ul li .dot {
+  height: 0.25rem;
+  width: 0.25rem;
+  background-color: #575757;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 0.5rem;
+}
+
 .container--tittle {
   text-decoration: none;
 }
@@ -111,7 +140,6 @@ a {
   .paragrapghNone {
     font-size: 15px;
     display: block;
-    margin-right: 17rem;
   }
   .emoji {
     margin-left: 2rem;
