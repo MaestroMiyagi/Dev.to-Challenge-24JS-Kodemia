@@ -9,10 +9,10 @@ This is a copy of the Dev.to website made with the help of boostrap, recreating 
 ## Screenshot
 
 This's the screenshot of the planing stage of the challenge
-![screenshot-1](/images/screenshot-1.png)
+![screenshot-1](./images/screenshoot-1.png)
 
 And this's the screenshot of the challenge being displayed in a browser
-![screenshot-2](/images/screenshot-2.png)
+![screenshot-2](./images/screenshoot-2.png)
 
 ## Credits
 
